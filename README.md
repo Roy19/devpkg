@@ -9,5 +9,7 @@ Devpkg installs other packages from the web or files on the local storage. The m
 ## Dependencies:
 * Apache Portable Runtime (apr).
 * Apache Portable Runtime Utils (apr-utils).
-* Better String Library (bstrlib)
+* Better String Library (bstrlib).
+* libexpat (for apr-utils).
+
 
