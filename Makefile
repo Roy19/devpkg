@@ -1,7 +1,7 @@
 PREFIX ?= /usr/local
 CFLAGS = -g -Wall -I${PREFIX}/apr/include/apr-1
 CFLAGS += -I${PREFIX}/apr/include/apr-util-1
-LDFLAGS = -l${PREFIX}/apr/lib -lapr-1 -pthread -laprutil-1
+LDFLAGS = -L${PREFIX}/apr/lib -lapr-1 -pthread -laprutil-1 -lexpat
 
 all: devpkg
 
